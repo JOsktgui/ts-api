@@ -6,7 +6,8 @@
   "author": "josktgui <jose.osk01@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "nodemon ./build/server.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
